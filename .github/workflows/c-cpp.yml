@@ -14,4 +14,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: make RMX3265_defconfig
-      run: make RMX3265_defconfig
+      run: make O=out ARCH=arm64 RMX3265_defconfig
