@@ -4834,3 +4834,11 @@ CONFIG_SBITMAP=y
 # Bin.Li@EXP.BSP.bootloader.bootflow, 2021/07/05, Add for oppo device info and oppo project
 CONFIG_VENDOR_EDIT=y
 CONFIG_OPPO_DEVICE_IFNO=y
+
+#
+# KVM Support (Untested)
+#
+CONFIG_VIRTUALIZATION=y
+CONFIG_KVM=y
+CONFIG_KVM_MMIO=y
+CONFIG_KVM_ARM_HOST=y
